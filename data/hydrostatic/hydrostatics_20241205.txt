@@ -1,0 +1,63 @@
+Vessel Hydrostatics Report
+=========================
+
+Date: 2024-12-05
+
+g: 9.81
+rho: 1025.0
+center_of_mass:
+  [ 1.02332e+02  5.00000e-02 -1.75800e+00]
+wet_surface_area: 10809.028742573793
+disp_volumes:
+  [73213.40966621 72983.26256124 72985.55620495]
+disp_volume: 73060.74281079773
+disp_mass: 74887261.38106768
+center_of_buoyancy:
+  [ 1.02662856e+02 -1.51813794e-03 -6.30308461e+00]
+waterplane_center:
+  [ 9.43352144e+01 -4.33097452e-03  0.00000000e+00]
+waterplane_area: 6082.63459188333
+transversal_metacentric_radius: 6.631029837364843
+longitudinal_metacentric_radius: 998.5320492301623
+transversal_metacentric_height: 2.085945225605496
+longitudinal_metacentric_height: 993.986964618403
+hydrostatic_stiffness: <xarray.DataArray 'hydrostatic_stiffness' (influenced_dof: 6, radiating_dof: 6)> Size: 288B
+array([[ 0.00000000e+00,  0.00000000e+00,  0.00000000e+00,
+         0.00000000e+00,  0.00000000e+00,  0.00000000e+00],
+       [ 0.00000000e+00,  0.00000000e+00,  0.00000000e+00,
+         0.00000000e+00,  0.00000000e+00,  0.00000000e+00],
+       [ 0.00000000e+00,  0.00000000e+00,  6.11624115e+07,
+        -3.32301342e+06,  4.89102692e+08,  0.00000000e+00],
+       [ 0.00000000e+00,  0.00000000e+00, -3.32301342e+06,
+         1.53260661e+09, -4.67675274e+07, -2.43061312e+08],
+       [ 0.00000000e+00,  0.00000000e+00,  4.89102692e+08,
+        -4.67675274e+07,  1.89845428e+11,  3.78474927e+07],
+       [ 0.00000000e+00,  0.00000000e+00,  0.00000000e+00,
+         0.00000000e+00,  0.00000000e+00,  0.00000000e+00]])
+Coordinates:
+  * influenced_dof  (influenced_dof) <U5 120B 'Surge' 'Sway' ... 'Pitch' 'Yaw'
+  * radiating_dof   (radiating_dof) <U5 120B 'Surge' 'Sway' ... 'Pitch' 'Yaw'
+length_overall: 201.80113719489947
+breadth_overall: 33.379852
+depth: 13.297078716797074
+draught: 13.297078716797074
+length_at_waterline: 201.80002865935393
+breadth_at_waterline: 32.32624932522746
+length_overall_submerged: 201.80113719489947
+breadth_overall_submerged: 33.379852
+inertia_matrix: <xarray.DataArray 'inertia_matrix' (influenced_dof: 6, radiating_dof: 6)> Size: 288B
+array([[ 7.48872614e+07,  0.00000000e+00,  0.00000000e+00,
+         0.00000000e+00,  0.00000000e+00, -0.00000000e+00],
+       [ 0.00000000e+00,  7.48872614e+07,  0.00000000e+00,
+        -0.00000000e+00,  0.00000000e+00,  0.00000000e+00],
+       [ 0.00000000e+00,  0.00000000e+00,  7.48872614e+07,
+         0.00000000e+00, -0.00000000e+00,  0.00000000e+00],
+       [ 0.00000000e+00, -0.00000000e+00,  0.00000000e+00,
+         8.20316216e+09, -2.72011479e+06,  1.44467403e+09],
+       [ 0.00000000e+00,  0.00000000e+00, -0.00000000e+00,
+        -2.72011479e+06,  1.86757224e+11, -2.10861567e+07],
+       [-0.00000000e+00,  0.00000000e+00,  0.00000000e+00,
+         1.44467403e+09, -2.10861567e+07,  1.89727085e+11]])
+Coordinates:
+  * influenced_dof  (influenced_dof) <U5 120B 'Surge' 'Sway' ... 'Pitch' 'Yaw'
+  * radiating_dof   (radiating_dof) <U5 120B 'Surge' 'Sway' ... 'Pitch' 'Yaw'

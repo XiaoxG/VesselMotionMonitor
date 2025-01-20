@@ -1,0 +1,14 @@
+numpy>=1.21.0
+pandas>=1.3.0
+scipy==1.13.0
+pymongo>=4.0.0
+prophet>=1.1.0
+scikit-learn>=1.0.0
+capytaine>=1.5.0
+xarray>=0.20.0
+pyyaml>=6.0.0
+pmdarima>=2.0.0
+vtk>=9.0.0
+numba
+mongomock==4.3.0
+pyarmor==9.0.7

@@ -1,0 +1,63 @@
+Vessel Hydrostatics Report
+=========================
+
+Date: 2024-10-28
+
+g: 9.81
+rho: 1025.0
+center_of_mass:
+  [102.   11.5   3.9]
+wet_surface_area: 10839.183935332097
+disp_volumes:
+  [73996.87588358 73325.95118277 73323.2699703 ]
+disp_volume: 73548.69901221636
+disp_mass: 75387416.48752177
+center_of_buoyancy:
+  [ 1.02776814e+02 -7.52973894e-04 -6.30874736e+00]
+waterplane_center:
+  [ 9.39803210e+01 -4.30838107e-04  0.00000000e+00]
+waterplane_area: 6104.833712584736
+transversal_metacentric_radius: 6.607679794132645
+longitudinal_metacentric_radius: 992.0562619238419
+transversal_metacentric_height: -3.601067567712681
+longitudinal_metacentric_height: 981.8475145619966
+hydrostatic_stiffness: <xarray.DataArray 'hydrostatic_stiffness' (influenced_dof: 6, radiating_dof: 6)>
+array([[ 0.00000000e+00,  0.00000000e+00,  0.00000000e+00,
+         0.00000000e+00,  0.00000000e+00,  0.00000000e+00],
+       [ 0.00000000e+00,  0.00000000e+00,  0.00000000e+00,
+         0.00000000e+00,  0.00000000e+00,  0.00000000e+00],
+       [ 0.00000000e+00,  0.00000000e+00,  6.13856292e+07,
+        -7.05961183e+08,  4.92293043e+08,  0.00000000e+00],
+       [ 0.00000000e+00,  0.00000000e+00, -7.05961183e+08,
+         5.45568623e+09, -5.66333577e+09, -5.74493401e+08],
+       [ 0.00000000e+00,  0.00000000e+00,  4.92293043e+08,
+        -5.66333577e+09,  1.87897570e+11,  8.50538825e+09],
+       [ 0.00000000e+00,  0.00000000e+00,  0.00000000e+00,
+         0.00000000e+00,  0.00000000e+00,  0.00000000e+00]])
+Coordinates:
+  * influenced_dof  (influenced_dof) <U5 'Surge' 'Sway' ... 'Pitch' 'Yaw'
+  * radiating_dof   (radiating_dof) <U5 'Surge' 'Sway' 'Heave' ... 'Pitch' 'Yaw'
+length_overall: 203.4552558482322
+breadth_overall: 33.379852
+depth: 13.300006
+draught: 13.300006
+length_at_waterline: 203.4552558482322
+breadth_at_waterline: 32.32588060207305
+length_overall_submerged: 203.4552558482322
+breadth_overall_submerged: 33.379852
+inertia_matrix: <xarray.DataArray 'inertia_matrix' (influenced_dof: 6, radiating_dof: 6)>
+array([[ 7.53874165e+07,  0.00000000e+00,  0.00000000e+00,
+         0.00000000e+00,  0.00000000e+00, -0.00000000e+00],
+       [ 0.00000000e+00,  7.53874165e+07,  0.00000000e+00,
+        -0.00000000e+00,  0.00000000e+00,  0.00000000e+00],
+       [ 0.00000000e+00,  0.00000000e+00,  7.53874165e+07,
+         0.00000000e+00, -0.00000000e+00,  0.00000000e+00],
+       [ 0.00000000e+00, -0.00000000e+00,  0.00000000e+00,
+         2.65928322e+10, -2.11996073e+09,  1.58404564e+09],
+       [ 0.00000000e+00,  0.00000000e+00, -0.00000000e+00,
+        -2.11996073e+09,  2.32165950e+11, -8.89458620e+09],
+       [-0.00000000e+00,  0.00000000e+00,  0.00000000e+00,
+         1.58404564e+09, -8.89458620e+09,  2.40764684e+11]])
+Coordinates:
+  * influenced_dof  (influenced_dof) <U5 'Surge' 'Sway' ... 'Pitch' 'Yaw'
+  * radiating_dof   (radiating_dof) <U5 'Surge' 'Sway' 'Heave' ... 'Pitch' 'Yaw'

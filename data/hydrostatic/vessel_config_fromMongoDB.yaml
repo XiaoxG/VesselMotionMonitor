@@ -1,0 +1,34 @@
+vessel:
+  M.V: M.V. COSCO SHIPPING SINCERE
+  LOA: 201.8
+  LBP: 198.3
+  MLD_Breadth: 19.3
+  Draft_forward: 11.92
+  Draft_aft: 12.2
+  Displacement: 47867
+  GM0: 1.73
+  GM1: 200
+  VCG: 9.2
+  LCG: 0.0
+  TCG: 1.71
+  RXX: 10.02
+  RYY: 57.36
+  RZZ: 58.0
+  Speed: 11.63
+Voyage:
+  'No': V14
+Monitor:
+  x: 0.0
+  y: 0.0
+  z: 0.0
+Warning:
+  Roll: 10.25
+  Pitch: 5.0
+  acc_x: 0.25
+  acc_y: 0.25
+  acc_z: 0.25
+Mission:
+  Start: 00:00
+  End: '23:59'
+  Name: Unknown
+  Report_address: Unknown

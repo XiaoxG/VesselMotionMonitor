@@ -1,0 +1,32 @@
+vessel:
+  M.V: 'M.V. COSCO SHIPPING SINCERE'
+  LOA: 201.8
+  LBP: 198.3
+  MLD_Breadth: 19.3
+  Draft_forward: 7.7
+  Draft_aft: 8.2
+  Displacement: 47867
+  GM0: 2.5
+  GM1: 2.32
+  VCG: 11.79
+  LCG: 60
+  TCG: 0.00
+  RXX: 10.2
+  RYY: 57
+  RZZ: 58
+Voyage:
+  No: 'V12'
+  # Cargo: 'Iron Ore'
+  # Last_port: 'Qingdao'
+  # Destination: 'Jingtang'
+  # ETA: '2021-01-01 00:00:00'
+Monitor:
+  x: 105.78
+  y: 0.0
+  z: 11.6
+Warning:
+  Roll: 15.0
+  Pich: 5.00
+  acc_x: 0.30
+  acc_y: 0.66
+  acc_z: 0.31
